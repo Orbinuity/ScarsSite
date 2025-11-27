@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/logo/trans.png" type="image/png">
+    <title>Scars - Contact</title>
+    <link rel="stylesheet" href="https://orbinuity.nl/style.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div id="header" data-id="/contact"></div>
+
+<main class="container">
+    <h1>Contact Scars</h1>
+    <section id="home">
+        <div class="card">
+            <p>Mail: <a href="mailto:person@orbinuity.nl">person@orbinuity.nl</a></p>
+        </div>
+        <div class="card">
+            <form onsubmit="sendEmail(event)">
+                <label for="name">Naam</label>
+                <input type="text" id="name" required placeholder="Uw naam">
+                
+                <label for="message">Bricht</label>
+                <textarea id="message" rows="5" required placeholder="Uw bricht"></textarea>
+                
+                <button type="submit">Stuur</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<div id="footer"></div>
+
+<script src="https://orbinuity.nl/script.js"></script>
+<script src="https://orbinuity.nl/contact.js" data-mail="person@orbinuity.nl"></script>
+
+</body>
+</html>
