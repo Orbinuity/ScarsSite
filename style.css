@@ -1,0 +1,17 @@
+:root {
+    --bg: #121212;
+    --bg-accent: #2b2b2b;
+    --header: #1a1a1a;
+    --text: #f0f0f0;
+    --dark-text: #888;
+    --accent: #6a42e3;
+    --card: #1f1f1f;
+}
+
+body {
+    margin: 0;
+    background-image: url("/assets/banner/vert.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+}
