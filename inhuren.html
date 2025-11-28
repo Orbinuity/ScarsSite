@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/logo/trans.png" type="image/png">
+    <title>Scars - Inhuren</title>
+    <link rel="stylesheet" href="https://orbinuity.nl/style.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div id="header" data-id="/inhuren"></div>
+
+<main class="container">
+    <h1>Inhuren</h1>
+    <section id="contact">
+        <div class="card">
+            <p>Als je ons wilt inhuren stuur ons een bricht met info als:</p>
+            <ul>
+                <li>Tijd & Datum</li>
+                <li>Locatie (Binnen Gelderland)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <form onsubmit="sendEmail(event)">
+                <label for="name">Naam</label>
+                <input type="text" id="name" required placeholder="Uw naam">
+                
+                <label for="message">Bricht</label>
+                <textarea id="message" rows="5" required placeholder="Uw bricht"></textarea>
+                
+                <button type="submit">Stuur</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<div id="footer"></div>
+
+<script src="https://orbinuity.nl/script.js"></script>
+<script src="https://orbinuity.nl/contact.js" data-mail="person@orbinuity.nl" data-sub="&(name) wil de band inhuren!" data-prt="Hallo, Scars&#10;&#10;&(body)&#10;&#10;Met vriendelijke groet,&#10;&(name)" data-ms="Bedankt dat u ons wilt inhuren, &(name). Uw mail app opend nu!"></script>
+
+</body>
+</html>
